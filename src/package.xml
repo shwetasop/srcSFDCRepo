@@ -1,20 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>src SFDC Repo</fullName>
     <types>
-        <members>*</members>
+        <members>HelloWorldTestClass</members>
+        <members>MyHelloWorld</members>
+        <members>friendController</members>
+        <members>searchCases</members>
+        <members>sendAnEmail</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Friend_Info</members>
+        <members>Quote_PDF</members>
         <name>ApexPage</name>
     </types>
     <types>
-        <members>*</members>
+        <members>HelloWorldTrigger</members>
         <name>ApexTrigger</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Book__c.Price__c</members>
+        <members>Campaign_Item__c.Packed__c</members>
+        <members>Campaign_Item__c.Price__c</members>
+        <members>Campaign_Item__c.Quantity__c</members>
+        <members>Expense__c.Amount__c</members>
+        <members>Expense__c.Client__c</members>
+        <members>Expense__c.Date__c</members>
+        <members>Expense__c.Reimbursed__c</members>
+        <members>Friend__c.Full_Name__c</members>
+        <members>Quote__c.Approver_Email__c</members>
+        <members>Quote__c.Quote_Status__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Book__c</members>
+        <members>Campaign_Item__c</members>
+        <members>Expense__c</members>
+        <members>Friend__c</members>
+        <members>Fundraiser__c</members>
+        <members>Quote__c</members>
+        <members>myobj__c</members>
         <name>CustomObject</name>
     </types>
-    <version>40.0</version>
+    <types>
+        <members>Friend__c.All</members>
+        <members>Fundraiser__c.All</members>
+        <name>ListView</name>
+    </types>
+    <version>38.0</version>
 </Package>
