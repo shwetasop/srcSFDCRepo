@@ -1,0 +1,5 @@
+project:
+    name: srcSFDCRepo
+    package:
+        name: src SFDC Repo
+        namespace: mysrc
