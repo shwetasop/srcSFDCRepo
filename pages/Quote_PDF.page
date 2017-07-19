@@ -1,0 +1,6 @@
+<apex:page controller="friendController">
+
+    <apex:pageBlock title="Hello {!friend.Name}!">
+        This is your new page.
+    </apex:pageBlock>
+</apex:page>
